@@ -21,7 +21,7 @@ void main()
 
 	static vector<int> generatedValues;
 	int num;
-	while (generatedValues.size() < 7)
+	while (generatedValues.size() < 6)
 	{
 		srand(time(NULL));
 		num = rand() % 45;
